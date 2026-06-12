@@ -12,19 +12,16 @@ main:
     url: /
 
   - title: "Slides"
-    url: /slide    
+    url: /slide/    
 
   - title: "Example Code"
-    url: /r_code
+    url: /r_code/
     
   - title: "Exercises"
-    url: /exercise
-
-  - title: "Exercises Answers"
-    url: /exercise_answer
+    url: /exercise/
 
   - title: "HW solutions"
-    url: /HW_sol
+    url: /HW_sol/
 
   - title: "Quizs"
-    url: /quiz
+    url: /quiz/
