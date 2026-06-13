@@ -1,7 +1,7 @@
 ---
 permalink: /HW_sol/
 title: "HW solutions"
-author_profile: false
+author_profile: true
 ---
 
 Here are suggested anwsers of Homeworks. Feel free to discuss with TAs if you have any questions.

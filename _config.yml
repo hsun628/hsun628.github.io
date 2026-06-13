@@ -24,7 +24,8 @@ repository               : "hsun628/hsun628.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "TA hsun" 
+  name             : "hsun" 
+  bio              : ""
   location         : "Room 6XX, Social Science Building"
   email            : "R15XXXX.ntu.edu.tw" 
   github           : "https://github.com/hsun628/"

@@ -9,11 +9,11 @@ Check all previous announcements!
 ---
 
 <style>
-  /* 歷史公告外框：維持不顯眼的細灰框 */
+  /* 歷史公告外框：維持不顯眼的細灰框，並改為 10px 圓角 */
   .announcement-box {
     border: 1px solid #e2e8f0;
     padding: 18px 20px;
-    border-radius: 6px;
+    border-radius: 10px;
     background-color: #ffffff;
     margin-bottom: 12px;
   }
@@ -31,11 +31,9 @@ Check all previous announcements!
     display: none;
   }
   
-  /* 標題樣式 */
+  /* 標題樣式：拔掉強制的顏色限制，讓原生 H4 自動對齊主題標題色 */
   .announcement-title {
     margin: 0;
-    color: #333;
-    font-size: 1.05em;
   }
   
   /* 預設隱藏完整內容 */
@@ -45,7 +43,6 @@ Check all previous announcements!
     border-top: 1px dashed #e2e8f0;
     padding-top: 15px;
     line-height: 1.65;
-    color: #333;
     font-size: 0.95em;
   }
   
@@ -59,7 +56,7 @@ Check all previous announcements!
     display: none;
   }
   
-  /* [more ↓] 按鈕樣式 */
+  /* [more ↓] 按鈕樣式：微調回呼應主題大標題的灰色調 */
   .more-btn {
     color: #003366;
     font-size: 0.85em;
@@ -68,12 +65,38 @@ Check all previous announcements!
     white-space: nowrap;
     margin-left: 15px;
   }
+
+  /* ======================================================== */
+  /* 深色模式自適應                                            */
+  /* ======================================================== */
+  @media (prefers-color-scheme: dark) {
+    .announcement-box {
+      background-color: #252a34;
+      border-color: #3f444e;
+    }
+    .more-btn {
+      color: inherit;
+      opacity: 0.8;
+    }
+  }
+  
+  html[data-theme="dark"] .announcement-box,
+  .theme-dark .announcement-box {
+    background-color: #252a34;
+    border-color: #3f444e;
+  }
+  
+  html[data-theme="dark"] .more-btn,
+  .theme-dark .more-btn {
+    color: inherit;
+    opacity: 0.8;
+  }
 </style>
 
 <!-- 新公告 -->
 <details class="announcement-box">
   <summary>
-    <span class="announcement-title"><b>2026-06-13: Welcome to the course!</b></span>
+    <h4 class="announcement-title">2026-06-13: Welcome to the course!</h4>
     <span class="more-btn">more &darr;</span>
   </summary>
   <div class="announcement-content">
@@ -81,4 +104,4 @@ Check all previous announcements!
   </div>
 </details>
 
-<!-- 舊公告 -->
+<!-- 舊公告（未來新增公告時，只要複製上方 details 區塊即可） -->

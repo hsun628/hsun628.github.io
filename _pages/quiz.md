@@ -1,7 +1,7 @@
 ---
 permalink: /quiz/
 title: "Quizs"
-author_profile: false
+author_profile: true
 ---
 
 Here are Quizs and suggested answers. Feel free to discuss with TAs if you have any questions.

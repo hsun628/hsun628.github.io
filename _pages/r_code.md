@@ -1,7 +1,7 @@
 ---
 permalink: /r_code/
 title: "Example Codes"
-author_profile: false
+author_profile: true
 ---
 
 Here are Example Codes for TA sessions. Please Download before classes.

@@ -1,7 +1,7 @@
 ---
 permalink: /slide/
 title: "TA Session Slides"
-author_profile: false
+author_profile: true
 ---
 
 Here are the weekly TA session slides. Please Download before classes.

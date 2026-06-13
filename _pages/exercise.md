@@ -1,7 +1,7 @@
 ---
 permalink: /exercise/
 title: "R Exercises"
-author_profile: false
+author_profile: true
 ---
 
 Here are Exercises for TA sessions and your own after-class pratices. Please Download before classes.
